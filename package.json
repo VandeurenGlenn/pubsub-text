@@ -11,6 +11,6 @@
   "flat": true,
   "license": "MIT",
   "dependencies": {
-    "little-pubsub": "^1.2.0"
+    "@vandeurenglenn/little-pubsub": "^1.2.0"
   }
 }
