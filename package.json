@@ -1,0 +1,16 @@
+{
+  "name": "@vandeurenglenn/pubsub-text",
+  "version": "0.1.0",
+  "description": "Simple data bindings without the need of big frameworks",
+  "module": "src/text.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "flat": true,
+  "license": "MIT",
+  "dependencies": {
+    "little-pubsub": "^1.2.0"
+  }
+}
