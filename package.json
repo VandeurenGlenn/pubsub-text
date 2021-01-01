@@ -1,6 +1,6 @@
 {
   "name": "@vandeurenglenn/pubsub-text",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple data bindings without the need of big frameworks",
   "module": "src/pubsub-text.js",
   "scripts": {
