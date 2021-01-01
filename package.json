@@ -2,7 +2,7 @@
   "name": "@vandeurenglenn/pubsub-text",
   "version": "0.1.3",
   "description": "Simple data bindings without the need of big frameworks",
-  "module": "src/text.js",
+  "module": "src/pubsub-text.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
