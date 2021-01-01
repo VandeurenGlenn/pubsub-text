@@ -30,7 +30,7 @@ export default class PubsubText extends HTMLElement {
   }
 
   _setValue(value, oldValue) {
-    if (value !== oldValue) this.value = value
+    if (this.value !== value || value !== oldValue) this.value = value
   }
 
   get template() {
