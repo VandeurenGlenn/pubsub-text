@@ -1,3 +1,3 @@
 import PubSub from './../../little-pubsub/src/index'
 
-if (!globalThis.pubSub) globalThis.pubSub = new PubSub()
+if (!globalThis.pubsub) globalThis.pubsub = new PubSub()
