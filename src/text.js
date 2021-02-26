@@ -26,7 +26,7 @@ export default class PubsubText extends HTMLElement {
   connectedCallback() {
     if (this.fade) this.value = 'Loading...'
     pubsub.subscribe(this.getAttribute('event'), this._setValue)
-    this.value = pubsub.subscribers[this.getAttribute('event')].value
+    this._setValue(pubsub.subscribers[this.getAttribute('event')].value)
   }
 
   _setValue(value, oldValue) {
@@ -38,8 +38,6 @@ export default class PubsubText extends HTMLElement {
     <style>
       :host {
         display: flex;
-        font-size: 24px;
-        font-weight: 700;
       }
       .value {
         opacity: 1;
